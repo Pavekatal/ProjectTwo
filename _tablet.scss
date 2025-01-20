@@ -1,0 +1,186 @@
+@media (max-width: 1024px) {
+
+    @import 'var'; 
+
+    body {
+
+        .center {
+            padding-left: calc(50% - 393px);
+            padding-right: calc(50% - 393px);
+        }
+    }
+
+    .games {
+
+        &__box {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        &__box1 {
+            flex-wrap: wrap;
+            gap: 16px 28px;
+        }
+
+        &__box2 {
+            flex-wrap: wrap;
+            gap: 16px 28px;
+        }
+
+        &__mini-item {
+            width: 786px;
+        }
+
+        &__mini-card-info {
+            width: 393px;
+            padding: 32px;
+        }
+
+        &__mini-name {
+            font-size: 36px;
+            line-height: 39px;
+        }
+
+        &__mini-text {
+            width: 329px;
+        }
+
+        &__mini-card-wrapper {
+            width: 393px;
+        }
+
+        &__mini-bg-1 {
+            left: -290px;
+            top: -241px;
+            scale: 0.8;
+        }
+
+        &__mini-bg-2 {
+            left: -190px;
+            top: -152px;
+            scale: 0.76;
+        }
+
+        &__mini-bg-3 {
+            left: -346px;
+            top: -127px;
+            scale: 0.9;
+        }
+
+        &__mini-bg-4 {
+            left: -302px;
+            top: -189px;
+            scale: 0.9;    
+        }
+
+        &__mini-bg-5 {
+            left: -302px;
+            top: -189px;
+            scale: 0.9;    
+        }
+
+        &__mini-bg-6 {
+            left: -142px;
+            top: -178px;
+            scale: 0.9;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+
+    body {
+
+        .center {
+            padding-left: calc(50% - 368px);
+            padding-right: calc(50% - 368px);
+        }
+    }
+
+    .games {
+        
+        &__item {
+            width: 354px;
+            height: 449px;
+        }
+
+        &__item-big1 {
+            height: 488px;
+        }
+
+        &__item-big2 {
+            height: 527px;
+        }
+
+        &__card-wrapper {
+            width: 354px;
+            height: 290px;
+        }
+
+        &__mini {
+            padding-top: 48px;
+            padding-bottom: 64px;
+        }
+
+        &__mini-item {
+            width: 724px;
+        }
+
+        &__mini-card-info {
+            padding: 32px;
+            width: 362px;
+        }
+
+        &__mini-text {
+            width: 298px;
+            margin-top: 16px;
+            margin-bottom: 24px;
+        }
+
+        &__mini-card-wrapper {
+            width: 362px;
+            height: 414px;
+        }
+
+        &__mini-bg-1 {
+            left: -308px;
+            top: -294px;
+            scale: 0.7;
+        }
+
+        &__mini-bg-2 {
+            left: -204px;
+            top: -197px;
+            scale: 0.7;
+        }
+
+        &__mini-bg-3 {
+            left: -358px;
+            top: -159px;
+            scale: 0.8;
+        }
+
+        &__mini-bg-4 {
+            left: -308px;
+            top: -216px;
+            scale: 0.8;
+        }
+
+        &__mini-bg-5 {
+            left: -308px;
+            top: -216px;
+            scale: 0.8;
+        }
+
+        &__mini-bg-6 {
+            left: -181px;
+            top: -203px;
+            scale: 0.76;
+        }
+    }
+
+    .footer {
+        height: 120px;
+    }
+}

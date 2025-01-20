@@ -1,0 +1,190 @@
+@media (max-width: 767px) {
+
+    @import 'var';
+
+    body {
+
+        .center {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+    }
+
+    .top {
+        height: 700px;
+        background-image: url(./img/bg-mobil_2.png);
+        background-position: -50% 411%;
+
+        &__heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            padding-top: 147px;
+        }
+
+        &__nav {
+            height: 51px;
+            // margin-top: 131px;
+        }
+
+        &__nav-box {
+            padding-top: 14px;
+        }
+
+        &__nav-animated {
+            font-size: 16px;
+        }
+
+        &__nav-animated::after {
+            content: url(./img/star_animated_small.svg);
+            margin-left: 27px;
+            margin-right: 27px;
+        }
+    }
+
+    .heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 36px;
+        width: 296px;
+    }
+
+    .link-btn {
+        font-size: 16px;
+        padding: 17px 103px 17px 103px;
+    }
+
+    .link-btn:hover {
+        border: 1px solid $color-black2;
+        color: $color-white;
+        background: $color-black2;
+    }
+
+    .link-btn-mobil {
+        padding: 17px 110px 17px 110px;
+    }
+
+    .games {
+
+        &__about {
+            display: none;
+        }
+
+        &__heading {
+            text-align: start;
+        }
+
+        &__mini {
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+
+        &__mini-box {
+            margin-top: 48px;
+            align-items: center;
+            gap: 27px;
+        }
+
+        &__mini-item {
+            width: 343px;
+            // height: 547px;
+        }
+
+        &__mini-item-mobil {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__order-mobil {
+            order: -1;
+        }
+
+
+        &__mini-card-wrapper {
+            width: 343px;
+            height: 284px;
+        }
+
+        &__mini-bg-1 {
+            scale: 0.58;
+            left: -95%;
+            top: -123%;
+        }
+
+        &__mini-bg-2 {
+            scale: 0.58;
+            top: -93%;
+            left: -73%;
+        }
+
+        &__mini-bg-3 {
+            scale: 0.58;
+            top: -76%;
+            left: -122%;
+        }
+
+        &__mini-bg-4 {
+            scale: 0.58;
+            left: -95%;
+            top: -96%;
+        }
+
+        &__mini-bg-5 {
+            scale: 0.58;
+            left: -95%;
+            top: -96%;
+        }
+
+        &__mini-text-mobil {
+            width: 245px;
+        }
+
+        &__mini-bg-6 {
+            scale: 0.58;
+            left: -70%;
+            top: -91%;
+        }
+
+        &__mini-card-info {
+            width: 343px;
+            padding: 29px 29px 32px 29px;
+        }
+
+        &__mini-name {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__mini-text {
+            font-size: 16px;
+            line-height: 20px;
+            text-align: left;
+            margin-top: 16px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .footer {
+        height: 100px;
+
+        &__text {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+  
+    .top {
+        background-position: 55% 400%;
+    }
+}
