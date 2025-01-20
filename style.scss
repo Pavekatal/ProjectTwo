@@ -49,19 +49,15 @@ body {
 
     &__nav {
         height: 90px;
-        // width: 100%;
         overflow-x: hidden;
         background-color: $color-green1;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.2);
         position: absolute;
         bottom: 0;
-        // display: flex;   
-        // align-items: center;
     }
 
     &__nav-box {
-        // width: 100%; //3220px;
         backdrop-filter: blur(50px);  
         padding-top: 24px;
         display: flex; 
@@ -79,7 +75,6 @@ body {
     }
 
     &__nav-animated {
-        // width: 100%;
         text-transform: uppercase;
         color: $color-black2;
         font-size: 30px;
@@ -114,8 +109,6 @@ body {
 }
 
 .link-btn {
-    // width: 247px;
-    // height: 66px;
     box-sizing: border-box;
     border: 1px solid $color-black2;
     border-radius: 60px;
@@ -329,7 +322,6 @@ body {
 
     &__mini-item {
         width: 1200px;
-        // height: 500px;
         border-radius: 30px;
         box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
         box-sizing: border-box;
@@ -338,10 +330,6 @@ body {
         justify-content: space-between;
         transition: all 0.5s;
     }
-
-    // &__mini-item:hover {
-    //     scale: 1.05;
-    // }
 
     &__mini-card-info {
         padding: 48px;
@@ -363,37 +351,31 @@ body {
     &__mini-bg-1 {
         left: -196px;
         top: -240px;
-        // scale: 1.57;
     }
 
     &__mini-bg-2 {
         left: -103px;
         top: -153px;
-        // scale: 1.57;
     }
 
     &__mini-bg-3 {
         left: -302px;
         top: -111px;
-        // scale: 1.57;
     }
 
     &__mini-bg-4 {
         left: -192px;
         top: -166px;
-        // scale: 1.57;
     }
 
     &__mini-bg-5 {
         left: -192px;
         top: -166px;
-        // scale: 1.57;
     }
 
     &__mini-bg-6 {
         left: -86px;
         top: -144px;
-        // scale: 1.57;
     }
 }
 
@@ -401,8 +383,6 @@ body {
 .footer {
     height: 150px;
     background: $color-green4;
-    // padding-top: 61px;
-    // padding-bottom: 61px;
     display: flex;
     justify-content: center;
     align-items: center;
